@@ -46,102 +46,67 @@
        -->
     <div class="wrapper">
       <!-- end loader -->
-      <div class="sidebar">
-        <!-- Sidebar  -->
-        <nav id="sidebar">
-          <div id="dismiss">
-            <i class="fa fa-arrow-left"></i>
-          </div>
-          <ul class="list-unstyled components">
-            <li class="active">
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#game">Game</a>
-            </li>
-            <li>
-              <a href="#customer">Our customer</a>
-            </li>
-            <li>
-              <a href="#contact">Conatct</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+
       <div id="content">
         <!-- header -->
         <header>
-          <!-- header inner -->
-          <div class="head_top">
-            <div class="header">
-              <div class="container-fluid">
-                <div class="row px-4 pt-4">
-                  <div class="col-md-3 logo_section">
-                    <div class="full">
-                      <div class="center-desk">
-                        <div class="logo">
-                          <a href="index.html"
-                            ><img src="images/logo.png" alt="#"
-                          /></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-9">
-                    <div class="right_header_info">
-                      <ul>
-                        <li class="menu_iconb">
-                          <a href="Javascript:void(0)">Registration</a>
-                        </li>
-                        <li class="menu_iconb">
-                          <a href="Javascript:void(0)">Login</a>
-                        </li>
-                        <li>
-                          <button type="button" id="sidebarCollapse">
-                            <img src="images/menu_icon.png" alt="#" />
-                          </button>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+          <div class="container">
+            <nav>
+              <div class="logo">
+                <div class="main-logo mr-auto">
+                  <img src="./images/logo.png" alt="" />
+                </div>
+                <div class="action action-1 lg-hide ml-auto">
+                  <button>Registration</button>
+                  <button>Login</button>
+                </div>
+                <div class="hamburger lg-hide">
+                  <a class="on" href="#">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                  <a href="#" class="off">
+                    <i class="fa fa-close"></i>
+                  </a>
                 </div>
               </div>
+              <ul class="menu">
+                <li class="menu-item"><a href="#">Home</a></li>
+                <li class="menu-item"><a href="#">About</a></li>
+                <li class="menu-item"><a href="#">Game</a></li>
+                <li class="menu-item"><a href="#">Our Customer</a></li>
+                <li class="menu-item"><a href="#">Contact</a></li>
+              </ul>
+              <div class="action action-2 lg-show">
+                <button>Registration</button>
+                <button>Login</button>
+              </div>
+            </nav>
+
+            <div
+              class="banner"
+              style="background-image: url('./images/bg_main.jpg')"
+            >
+              <a href="Javascript:void(0)">Play now</a>
             </div>
           </div>
         </header>
         <!-- end header inner -->
         <!-- end header -->
-        <section class="slider_section">
-          <div class="banner_main d-flex">
-            <img src="images/bg_main.jpg" alt="#" class="" />
-            <div class="container-fluid position-absolute">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="text-bg">
-                    <a href="Javascript:void(0)">Play now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
         <!-- Categories -->
         <!-- casino -->
         <div id="game" class="casino">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <div class="titlepage">
+                <div class="title_page">
                   <h2>Our Casino Games</h2>
                   <span></span>
                 </div>
               </div>
             </div>
             <div class="row games">
-              <div class="col-sm-6 col-md-4 col-lg-3 game_box">
+              <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="game_box">
                   <figure><img src="images/game1.jpg" alt="#" /></figure>
                 </div>
@@ -150,7 +115,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-6 col-md-4 col-lg-3 game_box">
+              <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="game_box">
                   <figure><img src="images/game2.jpg" alt="#" /></figure>
                 </div>
@@ -159,7 +124,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-6 col-md-4 col-lg-3 game_box">
+              <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="game_box">
                   <figure><img src="images/game3.jpg" alt="#" /></figure>
                 </div>
@@ -168,7 +133,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-6 col-md-4 col-lg-3 margin_bottom game_box">
+              <div class="col-sm-6 col-md-4 col-lg-3 game_box">
                 <div class="game_box">
                   <figure><img src="images/game4.jpg" alt="#" /></figure>
                 </div>
@@ -177,25 +142,7 @@
                 </div>
               </div>
 
-              <div class="col-sm-6 col-md-4 col-lg-3 margin_bottom game_box">
-                <div class="game_box">
-                  <figure><img src="images/game5.jpg" alt="#" /></figure>
-                </div>
-                <div class="game">
-                  <h3>Game 5</h3>
-                </div>
-              </div>
-
-              <div class="col-sm-6 col-md-4 col-lg-3 margin_bottom game_box">
-                <div class="game_box">
-                  <figure><img src="images/game5.jpg" alt="#" /></figure>
-                </div>
-                <div class="game">
-                  <h3>Game 5</h3>
-                </div>
-              </div>
-
-              <div class="col-sm-6 col-md-4 col-lg-3 margin_bottom game_box">
+              <div class="col-sm-6 col-md-4 col-lg-3 game_box">
                 <div class="game_box">
                   <figure><img src="images/game5.jpg" alt="#" /></figure>
                 </div>
@@ -205,6 +152,24 @@
               </div>
 
               <div class="col-sm-6 col-md-4 col-lg-3 game_box">
+                <div class="game_box">
+                  <figure><img src="images/game5.jpg" alt="#" /></figure>
+                </div>
+                <div class="game">
+                  <h3>Game 5</h3>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-lg-3 margin_bottom game_box">
+                <div class="game_box">
+                  <figure><img src="images/game5.jpg" alt="#" /></figure>
+                </div>
+                <div class="game">
+                  <h3>Game 5</h3>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="game_box">
                   <figure><img src="images/game6.jpg" alt="#" /></figure>
                 </div>
@@ -221,7 +186,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <div class="titlepage">
+                <div class="title_page">
                   <h2>Licensing & Reglation</h2>
                   <span></span>
                 </div>
@@ -415,7 +380,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <div class="titlepage">
+                <div class="title_page">
                   <h2>What Says Our customer</h2>
                   <span></span>
                 </div>
@@ -449,7 +414,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <div class="titlepage">
+                <div class="title_page">
                   <h2>Request A call back</h2>
                   <span></span>
                 </div>
@@ -498,120 +463,137 @@
                 </form>
               </div>
             </div>
-            </div>
-            </div>
           </div>
-        <!-- end Request -->
-        <!--  footer -->
-        <footer>
-          <div class="footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="address">
-                    <h3>Subscribe Now</h3>
-                    <form class="newtetter">
-                      <button class="submit">submit</button>
-                      <input
-                        class="tetter"
-                        placeholder="Enter your email"
-                        type="text"
-                        name="Enter your email"
-                      />
-                    </form>
-                  </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                      <div class="address">
-                        <h3>Links</h3>
-                        <ul class="Menu_footer">
-                          <li class="active"><a href="index.html">Home</a></li>
-                          <li><a href="#about">About</a></li>
-                          <li><a href="#game">Game</a></li>
-                          <li><a href="#customer">customer</a></li>
-                          <li><a href="#conatct">Conatct</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                      <div class="address">
-                        <h3>Contact us</h3>
-                        <ul class="Links_footer">
-                          <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="copyright">
-              <div class="container">
-                <p>
-                  Copyright 2019 All Right Reserved By
-                  <a href="https://html.design/">Free html Templates</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </footer>
-        <!-- end footer -->
-    
-
-      <div class="overlay">
+        </div>
       </div>
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-      <script src="js/custom.js"></script>
-      <script type="text/javascript">
-        $(document).ready(function () {
-          $("#sidebar").mCustomScrollbar({
-            theme: "minimal",
-          });
+      <!-- end Request -->
+      <!--  footer -->
+      <footer class="text-white py-5">
+        <div class="container">
+          <div class="row">
+            <!-- Subscription Section -->
+            <div class="col-md-4 col-sm-8 title_page">
+              <h2 class="text-white footer-title">Subscribe Now</h2>
+              <form class="d-flex">
+                <input
+                  type="email"
+                  class="footer-input me-2"
+                  placeholder="Enter your email"
+                  required
+                />
+                <button type="submit" class="footer-btn">Submit</button>
+              </form>
+            </div>
 
-          $("#dismiss, .overlay").on("click", function () {
-            $("#sidebar").removeClass("active");
-            $(".overlay").removeClass("active");
-          });
+            <!-- Links Section -->
+            <div class="col-md-4 ml-auto title_page">
+              <h2 class="footer-title">Links</h2>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="index.html" class="text-white text-decoration-none"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a href="#about" class="text-white text-decoration-none"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a href="#game" class="text-white text-decoration-none"
+                    >Game</a
+                  >
+                </li>
+                <li>
+                  <a href="#customer" class="text-white text-decoration-none"
+                    >Customer</a
+                  >
+                </li>
+                <li>
+                  <a href="#contact" class="text-white text-decoration-none"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
 
-          $("#sidebarCollapse").on("click", function () {
-            $("#sidebar").addClass("active");
-            $(".overlay").addClass("active");
-            $(".collapse.in").toggleClass("in");
-            $("a[aria-expanded=true]").attr("aria-expanded", "false");
-          });
+            <!-- Contact Section -->
+            <div class="col-md-3 footer-col title_page">
+              <h2 class="footer-title">Contact Us</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>
+                <i class="bi bi-geo-alt-fill me-2"></i>123 Main Street, City
+              </p>
+              <p><i class="bi bi-telephone-fill me-2"></i>+1 234 567 890</p>
+              <p><i class="bi bi-envelope-fill me-2"></i>info@example.com</p>
+            </div>
+          </div>
+
+          <!-- Footer Bottom -->
+          <div class="row mt-4 footer-bottom">
+            <div class="col text-center">
+              <p class="mb-0">
+                &copy; 2023 All Rights Reserved |
+                <a
+                  href="https://html.design/"
+                  class="text-primary text-decoration-none"
+                  >Free HTML Templates</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- end footer -->
+
+      <div class="overlay"></div>
+    </div>
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#sidebar").mCustomScrollbar({
+          theme: "minimal",
         });
-      </script>
 
-      <script>
-        $(document).ready(function () {
-          $(".fancybox").fancybox({
-            openEffect: "none",
-            closeEffect: "none",
-          });
-
-          $(".zoom").hover(
-            function () {
-              $(this).addClass("transition");
-            },
-            function () {
-              $(this).removeClass("transition");
-            }
-          );
+        $("#dismiss, .overlay").on("click", function () {
+          $("#sidebar").removeClass("active");
+          $(".overlay").removeClass("active");
         });
-      </script>
-  
-</body>
 
+        $("#sidebarCollapse").on("click", function () {
+          $("#sidebar").addClass("active");
+          $(".overlay").addClass("active");
+          $(".collapse.in").toggleClass("in");
+          $("a[aria-expanded=true]").attr("aria-expanded", "false");
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".fancybox").fancybox({
+          openEffect: "none",
+          closeEffect: "none",
+        });
+
+        $(".zoom").hover(
+          function () {
+            $(this).addClass("transition");
+          },
+          function () {
+            $(this).removeClass("transition");
+          }
+        );
+      });
+    </script>
+  </body>
 </html>
