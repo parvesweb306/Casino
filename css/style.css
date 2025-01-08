@@ -313,7 +313,9 @@ header {
 }
 /* nav start */
 nav.active {
-  height: 400px;
+  @media (max-width: 992px) {
+    height: 400px;
+  }
 }
 nav.active .menu {
   display: flex;
@@ -411,16 +413,23 @@ nav.active .logo .hamburger .on {
 nav.active .logo .hamburger .off {
   display: block;
 }
-.action-1,
-.action-2 {
-  @media (max-width: 600px) {
+/* action  */
+@media (min-width: 992px) {
+  .action-1 {
     display: none;
   }
 }
-nav.active .action-2 {
+@media (max-width: 992px) {
+  .action {
+    display: none;
+  }
+}
+
+nav.active .action.action-2 {
   display: block;
   margin: auto;
 }
+
 /* nav end */
 /* banner start  */
 .banner {
