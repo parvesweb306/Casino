@@ -362,12 +362,15 @@ nav button {
 .logo {
   display: flex;
   justify-content: space-between;
-  .action {
-    @media (max-width: 600px) {
-      display: none;
-    }
+  
   }
-}
+@media (max-width:578px){
+.logo_img{display: none;}
+  }
+@media (min-width:578px){
+  .small_device_btn{display: none;}
+  }
+
 .main-logo {
   width: 60px;
 }
@@ -420,15 +423,12 @@ nav.active .logo .hamburger .off {
   }
 }
 @media (max-width: 992px) {
-  .action {
-    display: none;
+  .action-2{
+    display: none; 
   }
 }
 
-nav.active .action.action-2 {
-  display: block;
-  margin: auto;
-}
+
 
 /* nav end */
 /* banner start  */
