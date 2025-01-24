@@ -4,49 +4,351 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- bootstrap  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
       integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
       crossorigin="anonymous"
     />
+    <!-- font awesome  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
       integrity="sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ=="
       crossorigin="anonymous"
     />
+    <!-- live link  -->
+    <!-- https://buffaloprotidin.com/usa/jcRCQa  -->
+    <style>
+      .img {
+        background-repeat: no-repeat;
+        background-size: 120%;
+        background-position: center;
+        min-height: 120px;
+        aspect-ratio: 6/3;
+        border: 12px solid #fff;
+      }
+      .blog-text {
+        text-decoration: none;
+        color: black;
+        &:hover {
+          text-decoration: underline;
+          color: #0d6efd;
+        }
+      }
+      .social a i{
+        height: 35px;
+        width:  35px;
+
+      }
+    </style>
   </head>
   <body>
     <section>
-      <div class="container">
+      <div class="container-fluid">
         <!-- this is the parent div  -->
         <div class="row">
           <!-- this is children one  -->
-          <div class="col-lg-3">
+          <div
+            class="col-lg-3 col-md-3 ps-4 pt-4 d-lg-block d-md-block d-sm-none d-none"
+          >
             <div class="time">
               <h2>নিউজ ডেস্ক</h2>
               <p>প্রকাশিত: ১৬:২২ ঘণ্টা, ২০ জানুয়ারী ২০২৫</p>
-              <div class="social">
-                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-                <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
-                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-                <i class="fa-solid fa-copyright" aria-hidden="true"></i>
+              <div
+                class="social py-4 d-flex justify-content-center align-items-center gap-2"
+              >
+                <a href="#">
+                  <i
+                    class="fa-brands fa-facebook-f bg-primary text-white rounded-circle d-flex justify-content-center align-items-center"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="rounded-circle bg-dark text-white  d-flex justify-content-center align-items-center fa-brands fa-x-twitter"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="rounded-circle bg-success text-white  d-flex justify-content-center align-items-center fa-brands fa-whatsapp"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="rounded-circle bg-primary text-white  d-flex justify-content-center align-items-center fa-solid fa-envelope"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="rounded-circle bg-dark text-white  d-flex justify-content-center align-items-center fa-solid fa-c"
+                    aria-hidden="true"
+                  ></i>
+                </a>
               </div>
             </div>
             <div class="banner pt-4">
-                <img src="https://buffaloprotidin.com/storage/app/public/advertisements/1729362119_1720609159_1716029000_65cdde37207c41707990583.png" alt="" srcset="" class="w-full">
+              <img
+                src="https://buffaloprotidin.com/storage/app/public/advertisements/1729362119_1720609159_1716029000_65cdde37207c41707990583.png"
+                alt=""
+                srcset=""
+                class="w-100"
+              />
             </div>
           </div>
+
           <!-- this is children two  -->
-          <div class="col-lg-6">
-            <h1>
-                যুক্তরাষ্ট্রে ফের চালু হলো টিকটক
-            </h1>
+          <div class="col-lg-5 col-md-6 py-3">
+            <div class="blog">
+              <h1 class="title">
+                যুক্তরাষ্ট্রের প্রেসিডেন্ট হিসেবে শপথ নিলেন ট্রাম্প
+              </h1>
+              <img
+                src="https://buffaloprotidin.com/storage/app/public/media/wmD3Co9SKw1aCj0RjhitPiyYvh9n8g55aZJre6V2.jpg"
+                alt=""
+                srcset=""
+                class="w-100 my-5"
+              />
+
+              <div class="d-lg-none d-md-none d-sm-block d-block">
+                <div class="time">
+                  <h2>নিউজ ডেস্ক</h2>
+                  <p>প্রকাশিত: ১৬:২২ ঘণ্টা, ২০ জানুয়ারী ২০২৫</p>
+                  <div
+                class="social py-4 d-flex justify-content-center align-items-center gap-2"
+              >
+                <a href="#">
+                  <i
+                    class="fa-brands fa-facebook-f bg-primary text-white rounded-circle d-flex justify-content-center align-items-center"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="rounded-circle bg-dark text-white  d-flex justify-content-center align-items-center fa-brands fa-x-twitter"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="rounded-circle bg-success text-white  d-flex justify-content-center align-items-center fa-brands fa-whatsapp"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="rounded-circle bg-primary text-white  d-flex justify-content-center align-items-center fa-solid fa-envelope"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+                <a href="#">
+                  <i
+                    class="rounded-circle bg-dark text-white  d-flex justify-content-center align-items-center fa-solid fa-c"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </div>
+                </div>
+              </div>
+
+              <div class="details text-secondary">
+                <p>
+                  যুক্তরাষ্ট্রের ৪৭তম প্রেসিডেন্ট হিসেবে শপথ নিলেন ডোনাল্ড
+                  ট্রাম্প। সোমবার দেশটির সর্বোচ্চ আসনে বসতে দ্বিতীয়বারের মতো
+                  শপথ নেন তিনি। তার আগে ভাইস প্রেসিডেন্ট পদে শপথ নেন জেভি
+                  ভ্যান্স।
+                </p>
+                <p>
+                  ট্রাম্প প্রেসিডেন্ট হিসেবে শপথ নেওয়ার পর ভাষণ দিয়েছেন। তিনি
+                  বলেছেন, ‘যুক্তরাষ্ট্রের সোনালি যুগ এখন থেকেই শুরু হচ্ছে। আজ
+                  থেকে আমাদের দেশ সমৃদ্ধ এবং সম্মানিত হবে। আমি খুব সহজভাবে
+                  আমেরিকাকে প্রথম স্থানে রাখব।’
+                </p>
+                <p>
+                  তিনি আরও বলেন, যুক্তরাষ্ট্র খুব শিগগির বৃহত্তর, শক্তিশালী এবং
+                  অতীতের চেয়ে অনেক বেশি ব্যতিক্রমী হয়ে উঠবে।
+                </p>
+                <div class="tags text-dark">
+                  সম্পর্কিত বিষয়:
+                  <button type="button" class="btn btn-outline-secondary">
+                    যুক্তরাষ্ট্র
+                  </button>
+                  <button type="button" class="btn btn-outline-secondary">
+                    ডোনাল্ড ট্রাম্প
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
+
           <!-- this is children three  -->
-          <div class="col"></div>
+          <div class="col-lg-4 col-md-3">
+
+            <div class="border mt-3 px-3">
+              <hr />
+              <h5 class="fw-bold">সর্বাধিক পঠিত সংবাদ</h5>
+              <hr />
+              <div class="blogs row d-flex justify-content-around">
+                <!-- blog start 1 -->
+                <div
+                  class="blog row col-lg-12 col-md-12 col-6 border-bottom text-dark d-flex row"
+                >
+                  <div
+                    class="img col-lg-5 col-md-12 d-flex justify-content-center align-items-center"
+                    style="
+                      background-image: url('https://buffaloprotidin.com/storage/app/public/2024/7/31/Io93FDchgPrKmUWwPa6RKAJci1LNvl.webp');
+                    "
+                  ></div>
+                  <div
+                    class="col-lg-7 col-md-12 d-flex align-items-center justify-content-center"
+                  >
+                    <a href="#" class="blog-text">
+                      <p class="pt-3">
+                        হারুনকে সরিয়ে ডিবি প্রধান আশরাফুজ্জামান
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <!-- blog end  -->
+
+                <!-- blog start 2 -->
+                <div
+                  class="blog row col-lg-12 col-md-12 col-6 border-bottom text-dark d-flex row"
+                >
+                  <div
+                    class="img col-lg-5 col-md-12 d-flex justify-content-center align-items-center"
+                    style="
+                      background-image: url('https://buffaloprotidin.com/storage/app/public/media/p9A8Lk19QB5BdoKtZQHeqZojFwnF6tkK0xfQDkfb.jpg');
+                    "
+                  ></div>
+                  <div
+                    class="col-lg-7 col-md-12 d-flex align-items-center justify-content-center"
+                  >
+                    <a href="#" class="blog-text">
+                      <p class="pt-3">
+                        নিউইয়র্কে ১ জানুয়ারি থেকে নতুন মজুরি কাঠামো চালু
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <!-- blog end  -->
+
+                <!-- blog start 3 -->
+                <div
+                  class="blog row col-lg-12 col-md-12 col-6 border-bottom text-dark d-flex row"
+                >
+                  <div
+                    class="img col-lg-5 col-md-12 d-flex justify-content-center align-items-center"
+                    style="
+                      background-image: url('https://buffaloprotidin.com/storage/app/public/2024/6/30/xUMUg2wBr7MDdr9oQi9apalgf5gcjs.webp');
+                    "
+                  ></div>
+                  <div
+                    class="col-lg-7 col-md-12 d-flex align-items-center justify-content-center"
+                  >
+                    <a href="#" class="blog-text">
+                      <p class="pt-3">
+                        দক্ষিণ আফ্রিকাকে কাঁদিয়ে দ্বিতীয় টি-টোয়েন্টি বিশ্বকাপ জিতল ভারত
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <!-- blog end  -->
+
+                <!-- blog start 4 -->
+                <div
+                  class="blog row col-lg-12 col-md-12 col-6 border-bottom text-dark d-flex row"
+                >
+                  <div
+                    class="img col-lg-5 col-md-12 d-flex justify-content-center align-items-center"
+                    style="
+                      background-image: url('https://buffaloprotidin.com/storage/app/public/2024/6/11/Wrniq7Xo5Apu33JLyjQVAoY7takaed.webp');
+                    "
+                  ></div>
+                  <div
+                    class="col-lg-7 col-md-12 d-flex align-items-center justify-content-center"
+                  >
+                    <a href="#" class="blog-text">
+                      <p class="pt-3">
+                        বিতর্কিত আম্পায়ারিং নিয়ে যা বললেন হৃদয়
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <!-- blog end  -->
+              </div>
+              <div class="banner pt-4">
+                <img
+                  src="https://buffaloprotidin.com/storage/app/public/advertisements/1729362119_1720609159_1716029000_65cdde37207c41707990583.png"
+                  alt=""
+                  srcset=""
+                  class="w-100"
+                />
+              </div>
+            </div>
+
+            <div class="border mt-3 px-3">
+              <hr />
+              <h5 class="fw-bold">এই বিভাগের আরও খবর</h5>
+              <hr />
+              <div class="blogs ps-4">
+
+                <!-- blog start 1 -->
+                <div class="blog border-bottom w-100 ">
+                  
+                  <a href="#" class="blog-text w-100">
+                    <p class="pt-3 w-100">
+                      নিউইয়র্কে ১ জানুয়ারি থেকে নতুন মজুরি কাঠামো চালু
+                    </p>
+                  </a>
+                 
+                </div>
+                <!-- blog end  -->
+
+                <!-- blog start 2 -->
+                <div class="blog border-bottom w-100 ">
+                  
+                  <a href="#" class="blog-text w-100">
+                    <p class="pt-3 w-100">
+                      পদত্যাগ করেছেন বাফলো সিটির মেয়র ব্রাউন
+                    </p>
+                  </a>
+                 
+                </div>
+                <!-- blog end  -->
+
+                <!-- blog start 3 -->
+                <div class="blog border-bottom w-100 ">
+                  
+                  <a href="#" class="blog-text w-100">
+                    <p class="pt-3 w-100">
+                      ২০২৫ সালে প্রথম শিশুকে স্বাগত জানাল বাফলো
+                    </p>
+                  </a>
+                 
+                </div>
+                <!-- blog end  -->
+
+                <!-- blog start 4 -->
+                <div class="blog border-bottom w-100 ">
+                  
+                  <a href="#" class="blog-text w-100">
+                    <p class="pt-3 w-100">
+                      সবচেয়ে ভারি তুষারপাত আসছে যুক্তরাষ্ট্রে
+                    </p>
+                  </a>
+                 
+                </div>
+                <!-- blog end  -->
+              </div>
+            
+            </div>
+
+          </div>
         </div>
       </div>
     </section>
